@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: Balsamiq Sans;
+    }
+    textarea{
+        width: 300px;
+        height: 75px;
+    }
+    
+</style>
+<head>
+    <meta name="viewport" width = "device-width, initial-scale=1">
+    <title>Registration Form</title>
+</head>
+<form>
+    <h1>Registration Form</h1>
+    <div>
+        <label>First Name: *</label> 
+        <input type = "text" name = "First Name" placeholder="First Name" required>
+    </div>
+    <br>
+    <div>
+        <label>Last Name: *</label>
+        <input type = "text" name ="Last Name" placeholder = "Last Name" required>
+    </div>
+    <br>
+    <div>
+        <label>Email Address: *</label>
+        <input type = "email" name = "Email" placeholder = "Email" required>
+    </div>
+    <br>
+    <div>
+        <label>Password: *</label>
+        <input type = "password" name = "Password" placeholder = "Password" required>
+    </div>
+    <br>
+    <div>
+        <label>Confirm Password: *</label>
+        <input type = "password" name = "Confirm Password" placeholder = "Confirm Password" required>
+    </div>
+    <br>
+    <div>
+        <label>Birthday: </label>
+        <input type = "date" name ="Birthday">
+    </div>
+    <br>
+    <div>
+        <label> Gender Identity: </label>
+        <br>
+        <input type = "radio" name = "Gender"><label> Male</label>
+        <input type = "radio" name = "Gender"><label> Female</label>
+        <input type = "radio" name = "Gender"><label> Non-binary</label>
+        <input type = "radio" name = "Gender"><label> I perfer not to answer</label>
+     </div>
+     <br>
+     <div>
+         <p>A short description about myself: </p>
+         <textarea></textarea>
+     </div>
+     <br>
+     <div>
+         <label>Favorite Language: </label>
+         <select name ="Favorite Language">
+             <option value = "JavaScript">JavaScript</option>
+             <option value = "Python">Python</option>
+             <option value = "Java">Java</option>
+             <option value = "C#">C#</option>
+         </select>
+     </div>
+     <br>
+     <div>
+         <input type= "checkbox">
+         <label>Yes, I would like to recieve periodic email updates</label>
+     </div>
+     <br>
+     <button>Create Account</button>
+     <p>* Indicates a required field</p>
+</form>
